@@ -1,0 +1,8 @@
+
+- id: dotnet-test
+  name: dotnet unit test
+  description: Run tests before commit.
+  pass_filenames: false
+  entry: "dotnet_test"
+  language: python
+  files: '\.(cs|vb)$'
