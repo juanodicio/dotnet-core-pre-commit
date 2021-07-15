@@ -1,6 +1,6 @@
 
 - id: dotnet-test
-  name: dotnet unit test
+  name: Run unit test
   description: Run tests before commit.
   pass_filenames: false
   entry: "dotnet_test"
